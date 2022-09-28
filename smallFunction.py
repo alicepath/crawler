@@ -12,5 +12,5 @@ class smallFunction(object):
         num = 0
         for nowfolder in os.listdir(path):  #預設參數值為當前目錄
             for i, item in enumerate(os.listdir(path+nowfolder)):
-                os.rename(path +nowfolder +'/'+item, path +nowfolder +'/'+str(i+1)+'.jpg')
+                os.rename(path +nowfolder +'/'+item, path +nowfolder +'/' +str(i+1) +'.jpg')
 
